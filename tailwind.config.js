@@ -5,7 +5,6 @@
 // import defaultTheme from "tailwindcss/defaultTheme";
 // import colors from "tailwindcss/colors";
 import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
-import tailwindScrollbar from 'tailwind-scrollbar'
 export default {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -18,7 +17,6 @@ export default {
     extend: {},
   },
   plugins: [
-    tailwindScrollbar,
     addVariablesForColors],
   
 };
