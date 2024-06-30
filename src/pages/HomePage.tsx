@@ -1,12 +1,12 @@
 import GitHubCalendar from 'react-github-calendar';
 import NavBar from '../components/NavBar';
-
+import profile from '../assets/img.jpeg'
 
 export function Home() {
   return (
     <>
     <div className='md:hidden'>
-        <img className='w-[100px] h-[130px] rounded-md md:mr-5' src="../../public/img.jpeg" alt="" />
+        <img className='w-[100px] h-[130px] rounded-md md:mr-5' src={profile} alt="profile" />
     </div>
     <div className='flex justify-between '>
     <div>
@@ -14,7 +14,7 @@ export function Home() {
         <p className='mt-2 md:mt-2 font-medium md:text-lg text-zinc-400'>Dreaming up the next big idea.</p>
     </div>
     <div className='hidden md:block'>
-        <img className='w-[100px] h-[130px] rounded-md md:mr-5' src="../../public/img.jpeg" alt="" />
+        <img className='w-[100px] h-[130px] rounded-md md:mr-5' src={profile} alt="profile" />
     </div>
     </div>
     <p className='md:max-w-[70%] mt-2 md:-mt-5 mb-8 text-zinc-500 font-medium'>Self-taught MERN stack developer adept at mastering and implementing new technologies.</p>
