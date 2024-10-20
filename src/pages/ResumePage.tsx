@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 function ResumePage() {
   useEffect(() => {
-    window.open('https://drive.google.com/file/d/197q4N5ilp9L__hYNv7GHktv3XvmqvqHa/view', '_blank');  }, []);
+    window.open('https://drive.google.com/file/d/1jt06r0O0xdKFiahWRsxoGF6fvwMsiamQ/view', '_blank');  }, []);
 
   return null;
 }

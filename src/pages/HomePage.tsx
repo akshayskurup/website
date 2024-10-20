@@ -17,14 +17,14 @@ export function Home() {
         <img className='w-[100px] h-[130px] rounded-md md:mr-5' src={profile} alt="profile" />
     </div>
     </div>
-    <p className='md:max-w-[70%] mt-2 md:-mt-5 mb-8 text-zinc-500 font-medium'>Self-taught MERN stack developer adept at mastering and implementing new technologies.</p>
+    <p className='md:max-w-[70%] mt-2 md:-mt-5 mb-8 text-zinc-500 font-medium'>Self-taught software developer adept at mastering and implementing new technologies.</p>
       <GitHubCalendar style={{width:"80rem"}} username="akshayskurup" colorScheme="dark" />
     <p className='mt-8 text-2xl md:text-4xl text-white font-bold'>Skills</p>
     <div className=' w-full flex items-center justify-center min-h-[200px]'>
   <ul className='flex flex-wrap justify-center items-center gap-4'>
     {[
       "HTML", "CSS", "JavaScript", "TypeScript", "TailwindCSS", "Node.js", "Express.js", 
-      "React.js", "Redux", "MongoDB", "PostgreSQL"
+      "React.js", "Next.js", "Redux", "Recoil", "MongoDB", "PostgreSQL", "Docker"
     ].map((skill, index) => (
       <li key={index} className='bg-zinc-800 text-white px-3 py-1 rounded-full text-sm'>
         {skill}
