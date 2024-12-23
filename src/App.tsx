@@ -7,11 +7,11 @@ function App() {
   return (
     <>
       <Router>
-  <Routes>
-    <Route path='/*' element={<PageRoutes />} ></Route>
-    
-  </Routes>
-</Router>
+        <Routes>
+          <Route path='/*' element={<PageRoutes />} ></Route>
+
+        </Routes>
+      </Router>
     </>
   );
 }
